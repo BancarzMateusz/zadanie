@@ -7,9 +7,8 @@ public class Lista {
  produkty.add(new Produkt("Terracota pie", 1 ,2));
 
 
- System.out.println("Lista produktow: " + produkty);
 	for(Produkt produkt : produkty){
-	System.out.println(produkt);
+	produkt.wyswietl();
 }
  }
 }
